@@ -1,0 +1,15 @@
+CONFIGURAÇÕES INICIAIS
+git config --global user.name DarioDalpra
+git config --global user.email dariodalpra@gmail.com
+
+CRIAR UM REPOSITÓRIO
+git init
+
+VERIFICAR STATUS
+git status
+
+ADICIONAR TODOS OS ARQUIVOS PARA REPOSITÓRIO REMOTO
+git add*
+
+DEPOIS DE ADICIONAR OS ARQUIVOS, É FAZER UM COMMIT
+git comiit -m "Descrição do comit"
