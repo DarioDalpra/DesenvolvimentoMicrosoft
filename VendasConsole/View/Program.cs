@@ -1,4 +1,5 @@
 ﻿using System;
+
 using VendasConsole.DAL;
 using VendasConsole.View;
 
@@ -8,13 +9,18 @@ namespace VendasConsole
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Blue;
+            
             Dados.Inicializar();
             int opcao;
             do
             {
                 Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Black;
+                
+                Console.WriteLine(" *** PROJETO DE VENDAS CONSOLE *** \n");
+
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("  -- PROJETO DE VENDAS CONSOLE --  \n");
                 Console.WriteLine("1 - Cadastrar cliente");
                 Console.WriteLine("2 - Listar clientes");
                 Console.WriteLine("3 - Cadastrar vendedor");
