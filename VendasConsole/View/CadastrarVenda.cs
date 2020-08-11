@@ -5,8 +5,6 @@ using VendasConsole.DAL;
 using VendasConsole.Models;
 
 
-
-
 namespace VendasConsole
 {
     class CadastrarVenda
@@ -38,7 +36,7 @@ namespace VendasConsole
                     {
                         venda.Produto = p;
                         Console.WriteLine("Digite a quantidade do produto:");
-                        venda.Quantidade = Convert.ToInt32(Console.ReadLine());
+                        venda.Produto.Quantidade = Convert.ToInt32(Console.ReadLine());
                         VendaDAO.CadastrarVenda(venda);
                         Console.WriteLine("Venda cadastrada!");
                     }

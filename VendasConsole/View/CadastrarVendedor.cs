@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using VendasConsole.DAL;
 using VendasConsole.Models;
-
-
-
+using VendasConsole.Utils;
 
 namespace VendasConsole.View
 {

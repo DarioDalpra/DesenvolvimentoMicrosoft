@@ -19,5 +19,6 @@ namespace VendasConsole.Models
         public Vendedor Vendedor { get; set; }
         public List<ItemVenda> Produtos { get; set; }
         public DateTime CriadoEm { get; set; }
+        public Produto Produto { get; internal set; }
     }
 }

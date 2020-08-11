@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using VendasConsole.DAL;
+using VendasConsole.Models;
 
 namespace VendasConsole.View
 {
@@ -14,4 +16,5 @@ namespace VendasConsole.View
                 Console.WriteLine(produtoCadastrado);
             }
         }
+    }
 }

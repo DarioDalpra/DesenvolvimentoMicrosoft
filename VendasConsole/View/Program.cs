@@ -29,28 +29,34 @@ namespace VendasConsole
                 switch (opcao)
                 {
                     case 1:
-                        CadastrarCliente.Renderizar();
+                      //  Console.WriteLine("  -- Cadastro de Cliente--  \n");
+                       // Console.WriteLine("Digite o nome do cliente");
+                       // string nome = Console.ReadLine();
+                       // Console.WriteLine("Digite o CPF do cliente");
+                       // string cpf = Console.ReadLine();
+
+                         CadastrarCliente.Renderizar();
                         break;
                     case 2:
                         ListarClientes.Renderizar();
                         break;
                     case 3:
-                        CadastrarVendedor.Renderizar();
+                       CadastrarVendedor.Renderizar();
                         break;
                     case 4:
-                        ListarVendedores.Renderizar();
+                       ListarVendedores.Renderizar();
                         break;
                     case 5:
-                        CadastrarProduto.Renderizar();
+                       CadastrarProduto.Renderizar();
                         break;
                     case 6:
-                        ListarProdutos.Renderizar();
+                       ListarProdutos.Renderizar();
                         break;
                     case 7:
-                        CadastrarVenda.Renderizar();
+                       CadastrarVenda.Renderizar();
                         break;
                     case 0:
-                        Console.WriteLine("Saindo...");
+                       Console.WriteLine("Saindo...");
                         break;
                     default:
                         Console.WriteLine("Opção inválida!");

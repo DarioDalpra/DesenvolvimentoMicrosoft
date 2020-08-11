@@ -27,4 +27,5 @@ namespace VendasConsole
                 Console.WriteLine("Produto já cadastrado!");
             }
         }
+    }
 }
