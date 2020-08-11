@@ -9,7 +9,19 @@ VERIFICAR STATUS
 git status
 
 ADICIONAR TODOS OS ARQUIVOS PARA REPOSITÓRIO REMOTO
-git add*
+git add *
 
 DEPOIS DE ADICIONAR OS ARQUIVOS, É FAZER UM COMMIT
 git comiit -m "Descrição do comit"
+
+CRIAR UMA CONTA NO GIT E UM REPOSITÓRIO REMOTO
+git remote add origin https://github.com/DarioDalpra/DesenvolvimentoMicrosoft
+
+ENVIAR OS ARQUIVOS PARA O REPOSITÓRIO
+git push -u origin master
+
+CLONAR REPOSITÓRIO REMOTO
+git clone origin "https://github.com/DarioDalpra/DesenvolvimentoMicrosoft.git"
+
+REQUISITAR NOVAS ATUALIZAÇÕES DO PROJETO
+git push
